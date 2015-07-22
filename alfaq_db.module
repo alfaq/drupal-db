@@ -11,6 +11,10 @@ function alfaq_db_permission() {
             'title' => t('Alfaq db'),
             'description' => t('Perform administration tasks for my module.'),
         ),
+        'access alfaq db submissions' => array(
+            'title' => t('access Alfaq db submissions'),
+            'description' => t('access the form submissions.'),
+        ),
     );
 }
 
@@ -24,6 +28,13 @@ function alfaq_db_menu() {
         'page callback' => 'drupal_get_form',
         'page arguments' => array('alfaq_db_form'),
         'access arguments' => array('alfaq db'),
+    );
+    $items['alfaq-db-subm'] = array(
+        'title' => 'Example bd submissions',
+        'type' => MENU_NORMAL_ITEM,
+        'menu_name' => 'main-menu',
+        'page callback' => 'form_bd_submissions',
+        'access arguments' => array('access alfaq db submissions'),
     );
     return $items;
 }
@@ -82,4 +93,22 @@ function alfaq_db_form_submit($form, &$form_state){
 
     drupal_set_message(t('Your form entry has been added'));
 
+}
+
+//static queries in DB api
+function form_bd_submissions(){
+    $results = db_query("SELECT * FROM {alfaq_db}");
+    $header = array(t('ID'), t('Nubmer'), t('My text field'), t('My text'));
+
+    $rows = array();
+    foreach($results AS $result){
+        $rows[] = array(
+            $result->fe_id,
+            $result->mynumber,
+            $result->mytextfield,
+            $result->mytext,
+        );
+    }
+    //theme_table
+    return theme('table', array('header' => $header, 'rows' => $rows));
 }

@@ -38,10 +38,11 @@
       <file leaf-file-name="alfaq_db.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alfaq_db.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23261118">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.6123147">
+              <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
               <folding>
                 <element signature="e#6#62#0#PHP" expanded="true" />
+                <marker date="1437571953632" expanded="true" signature="2786:2810" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -245,7 +246,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/alfaq_db.module</url>
+          <line>34</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -270,10 +279,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alfaq_db.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23261118">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.6123147">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
             <element signature="e#6#62#0#PHP" expanded="true" />
+            <marker date="1437571953632" expanded="true" signature="2786:2810" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
