@@ -97,16 +97,25 @@ function alfaq_db_form_submit($form, &$form_state){
 
 //static queries in DB api
 function form_bd_submissions(){
-    $results = db_query("SELECT * FROM {alfaq_db}");
+    //static queries
+    //$results = db_query("SELECT * FROM {alfaq_db}");
+
+    //dynamic queries
+    $query = db_select('alfaq_db', 'al');
+    $query
+        ->fields('al', array('fe_id', 'mynumber', 'mytextfield', 'mytext'))
+        ->range(0,50)
+        ->orderBy('al.fe_id');
+    $results = $query->execute();
     $header = array(t('ID'), t('Nubmer'), t('My text field'), t('My text'));
 
     $rows = array();
     foreach($results AS $result){
         $rows[] = array(
-            $result->fe_id,
-            $result->mynumber,
-            $result->mytextfield,
-            $result->mytext,
+            check_plain($result->fe_id),
+            check_plain($result->mynumber),
+            check_plain($result->mytextfield),
+            check_markup($result->mytext),
         );
     }
     //theme_table
