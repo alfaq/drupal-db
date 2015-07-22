@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../admin_menu" />
+          <root url="file://$MODULE_DIR$/../jquery_update" />
+          <root url="file://$MODULE_DIR$/../webform_localization" />
+          <root url="file://$MODULE_DIR$/../devel" />
+          <root url="file://$MODULE_DIR$/../i18n" />
+          <root url="file://$MODULE_DIR$/../alfaq_block" />
+          <root url="file://$MODULE_DIR$/../alfaq_hello" />
+          <root url="file://$MODULE_DIR$/../pathauto" />
+          <root url="file://$MODULE_DIR$/../rate" />
+          <root url="file://$MODULE_DIR$/../alfaq_forms_cron" />
+          <root url="file://$MODULE_DIR$/../l10n_update" />
+          <root url="file://$MODULE_DIR$/../inline_entity_form" />
+          <root url="file://$MODULE_DIR$/../imce" />
+          <root url="file://$MODULE_DIR$/../token" />
+          <root url="file://$MODULE_DIR$/../i18nviews" />
+          <root url="file://$MODULE_DIR$/../ckeditor" />
+          <root url="file://$MODULE_DIR$/../metatag" />
+          <root url="file://$MODULE_DIR$/../entity_translation" />
+          <root url="file://$MODULE_DIR$/../variable" />
+          <root url="file://$MODULE_DIR$/../colorbox_node" />
+          <root url="file://$MODULE_DIR$/../libraries" />
+          <root url="file://$MODULE_DIR$/../entity" />
+          <root url="file://$MODULE_DIR$/../module_filter" />
+          <root url="file://$MODULE_DIR$/../faq" />
+          <root url="file://$MODULE_DIR$/../votingapi" />
+          <root url="file://$MODULE_DIR$/../../../../includes" />
+          <root url="file://$MODULE_DIR$/../rules" />
+          <root url="file://$MODULE_DIR$/../statspro" />
+          <root url="file://$MODULE_DIR$/../colorbox" />
+          <root url="file://$MODULE_DIR$/../webform" />
+          <root url="file://$MODULE_DIR$/../webform_block" />
+          <root url="file://$MODULE_DIR$/../backup_migrate" />
+          <root url="file://$MODULE_DIR$/../path_breadcrumbs" />
+          <root url="file://$MODULE_DIR$/../views" />
+          <root url="file://$MODULE_DIR$/../imce_mkdir" />
+          <root url="file://$MODULE_DIR$/../../../../modules" />
+          <root url="file://$MODULE_DIR$/../transliteration" />
+          <root url="file://$MODULE_DIR$/../flag" />
+          <root url="file://$MODULE_DIR$/../likebtn" />
+          <root url="file://$MODULE_DIR$/../webform_ajax" />
+          <root url="file://$MODULE_DIR$/../ctools" />
+          <root url="file://$MODULE_DIR$/../alfaq_menu" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../admin_menu" />
+          <root url="file://$MODULE_DIR$/../jquery_update" />
+          <root url="file://$MODULE_DIR$/../webform_localization" />
+          <root url="file://$MODULE_DIR$/../devel" />
+          <root url="file://$MODULE_DIR$/../i18n" />
+          <root url="file://$MODULE_DIR$/../alfaq_block" />
+          <root url="file://$MODULE_DIR$/../alfaq_hello" />
+          <root url="file://$MODULE_DIR$/../pathauto" />
+          <root url="file://$MODULE_DIR$/../rate" />
+          <root url="file://$MODULE_DIR$/../alfaq_forms_cron" />
+          <root url="file://$MODULE_DIR$/../l10n_update" />
+          <root url="file://$MODULE_DIR$/../inline_entity_form" />
+          <root url="file://$MODULE_DIR$/../imce" />
+          <root url="file://$MODULE_DIR$/../token" />
+          <root url="file://$MODULE_DIR$/../i18nviews" />
+          <root url="file://$MODULE_DIR$/../ckeditor" />
+          <root url="file://$MODULE_DIR$/../metatag" />
+          <root url="file://$MODULE_DIR$/../entity_translation" />
+          <root url="file://$MODULE_DIR$/../variable" />
+          <root url="file://$MODULE_DIR$/../colorbox_node" />
+          <root url="file://$MODULE_DIR$/../libraries" />
+          <root url="file://$MODULE_DIR$/../entity" />
+          <root url="file://$MODULE_DIR$/../module_filter" />
+          <root url="file://$MODULE_DIR$/../faq" />
+          <root url="file://$MODULE_DIR$/../votingapi" />
+          <root url="file://$MODULE_DIR$/../../../../includes" />
+          <root url="file://$MODULE_DIR$/../rules" />
+          <root url="file://$MODULE_DIR$/../statspro" />
+          <root url="file://$MODULE_DIR$/../colorbox" />
+          <root url="file://$MODULE_DIR$/../webform" />
+          <root url="file://$MODULE_DIR$/../webform_block" />
+          <root url="file://$MODULE_DIR$/../backup_migrate" />
+          <root url="file://$MODULE_DIR$/../path_breadcrumbs" />
+          <root url="file://$MODULE_DIR$/../views" />
+          <root url="file://$MODULE_DIR$/../imce_mkdir" />
+          <root url="file://$MODULE_DIR$/../../../../modules" />
+          <root url="file://$MODULE_DIR$/../transliteration" />
+          <root url="file://$MODULE_DIR$/../flag" />
+          <root url="file://$MODULE_DIR$/../likebtn" />
+          <root url="file://$MODULE_DIR$/../webform_ajax" />
+          <root url="file://$MODULE_DIR$/../ctools" />
+          <root url="file://$MODULE_DIR$/../alfaq_menu" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
